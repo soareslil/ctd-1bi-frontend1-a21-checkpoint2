@@ -20,7 +20,7 @@
 .header-div-img1-p{
     /* border: 10px solid burlywood; */
     display: flex;
-    color: white;
+    color: rgb(214, 174, 42);
     gap: 10px;
     margin-left: 10px;
 }
@@ -109,7 +109,7 @@
 .sec1-a:hover{
     animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     width: 180px;
-    color:black;
+    color: rgb(255, 196, 0);
 }
 .main{
     /* border: 10px solid rgb(137, 107, 197); */
@@ -139,7 +139,7 @@
 }
 
 .cards{
-    border: 5px solid #22222257;
+    border: 5px solid #ffbc0d;
     background-color: white;
     height: 380px;
     width: 300px;
@@ -165,9 +165,9 @@
 }
 
 .div-conteudo-card{
-    border-top: 4px solid #22222257;
+    /* border-top: 4px solid #ffbc0d; */
     width: 300px;
-    height: 110px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     /* align-self: center; */
@@ -175,8 +175,23 @@
     align-items: center;
     /* background-color:rgba(241, 238, 234, 0.199); */
     border-radius:2px;
+    gap: 10px;
 }
 
+.cardBotao{
+    color: white;
+    background-color: #ffbc0d;
+    width: 120px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor:pointer;
+    text-decoration: none; 
+}
 
 .sec3-h2{
     /* border: 10px solid  aqua;  */
@@ -197,7 +212,7 @@
 }
 
 .img-bkg-1{
-    background-image: url('../img/produto-estrela1.png');
+    background-image: url('../img/mequi-zap.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -215,7 +230,7 @@
 }
 
 .img-bkg-2{
-    background-image: url('../img/produto-estrela2.png');
+    background-image: url('../img/sorvete-mc.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -306,6 +321,7 @@
         flex-direction: row;
         border: none;
         gap: 20px;
+        font-size: 14px;
     }
 
 
@@ -330,7 +346,7 @@
 
     .header-img2{
         display: block;
-        width: 60px;
+        width: 40px;
         height: 30px;
         border: none;
     }
@@ -346,6 +362,7 @@
 .cards-container{
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap
 }
 
 .sec3-div-imgs{
