@@ -3,12 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    color: #323232;
+    color: rgb(214, 174, 42);
     border:0;
 }
 
 body{
-    background-image: url(../img/mrrobot.jpg);
+    background-image: url(../img/cardapio-mcdonalds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,9 +28,9 @@ a:hover{
 }
 
 /*Conteiner login*/
-
 #login-container{
-    background-color: #fff;
+    background-color: white;
+    border: 1px solid red;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -38,6 +38,7 @@ a:hover{
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 /* formulário*/
@@ -109,7 +110,21 @@ input[type="submit"]:hover{
     margin: 0 5px;
     cursor: pointer;
 }
+.acesso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+}
+
+.acesso img{
+    width: 40px;
+    border-radius: 50px;
+    
+}
+
+/*
 .fa-facebook{
     background-color: #3B5998;
 }
@@ -117,6 +132,8 @@ input[type="submit"]:hover{
 .fa-linkedin{
     background-color: #0077B5;
 }
+
+*/
 
 #register-container{
     margin-bottom: 10px;
