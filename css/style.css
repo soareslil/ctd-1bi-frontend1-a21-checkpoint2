@@ -20,7 +20,7 @@
 .header-div-img1-p{
     /* border: 10px solid burlywood; */
     display: flex;
-    color: white;
+    color: rgb(214, 174, 42);
     gap: 10px;
     margin-left: 10px;
 }
@@ -109,7 +109,7 @@
 .sec1-a:hover{
     animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     width: 180px;
-    color:black;
+    color: rgb(255, 196, 0);
 }
 .main{
     /* border: 10px solid rgb(137, 107, 197); */
@@ -139,7 +139,7 @@
 }
 
 .cards{
-    border: 5px solid #22222257;
+    border: 5px solid #ffbc0d;
     background-color: white;
     height: 380px;
     width: 300px;
@@ -165,9 +165,9 @@
 }
 
 .div-conteudo-card{
-    border-top: 4px solid #22222257;
+    /* border-top: 4px solid #ffbc0d; */
     width: 300px;
-    height: 110px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     /* align-self: center; */
@@ -175,8 +175,23 @@
     align-items: center;
     /* background-color:rgba(241, 238, 234, 0.199); */
     border-radius:2px;
+    gap: 10px;
 }
 
+.cardBotao{
+    color: white;
+    background-color: #ffbc0d;
+    width: 120px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor:pointer;
+    text-decoration: none; 
+}
 
 .sec3-h2{
     /* border: 10px solid  aqua;  */
@@ -197,7 +212,7 @@
 }
 
 .img-bkg-1{
-    background-image: url('../img/produto-estrela1.png');
+    background-image: url('../img/mequi-zap.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -215,7 +230,7 @@
 }
 
 .img-bkg-2{
-    background-image: url('../img/produto-estrela2.png');
+    background-image: url('../img/sorvete-mc.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -243,75 +258,45 @@
 }
 
 .footer{
-    /* border: 10px solid  brown;  */
-    background-color: #222222;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly; */
-    align-items: center;
-    /* height: 400px; */
-    gap: 20px;
-    padding: 60px;
+    border: 1px solid #755B3E;
+    background-color: #ffbc0d;
 }
 
-.footer-div-img1-p{
-    /* border: 10px solid  black;  */
+.footer-content{
+    background-color: #ffbc0d;
     display: flex;
-    color: white;
-    width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    /* border: 10px solid goldenrod; */
+    justify-content:space-evenly;
+    align-items:center;
+    /* width: 100%; */
+    height: 100px;
+    /* padding-left: 25px; */
+}
+
+.p-footer{
+    /* border: 10px solid red;  */
+    color: #755B3E;
+}
+
+.nav-footer{
+    /* border: 10px solid rgb(117, 78, 4); */
+    width: 120px;
+    /* height: 100%; */
+    display: flex;
     justify-content:space-between;
+    /* align-items:center; */
 }
 
-.footer-img1{
-    /* border: 10px solid  blue;  */
-    width: 90px;
-    cursor: pointer;
-}
 
-.footer-p{
-    /* border: 10px solid  greenyellow;  */
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.footer-span{
-    color:red;
-}
-
-.footer-divpai{
-    /* border: 10px solid  gray;  */
-    display: flex;
-    color:white;
-    flex-direction: column;
-    width: 100%;
-    gap: 30px;
-}
-
-.div-footer-p{
-    /* border: 10px solid white; */
-    display: flex;
-    justify-content: center;
-    font-size: 2.3rem;
-}
-
-.footer-div-imgs{
-    /* border: 10px solid  purple; */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-self: center;
-    gap: 20px; 
-    width: 100%;
-}
-
-.footer-imgs{
-    /* border: 10px solid  peru;  */
+.img-footer{
+    /* border: 10px solid aquamarine; */
     width: 50px;
-    height: 40px;
-    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+
 }
 
 @media (min-width: 1000px){
@@ -336,6 +321,7 @@
         flex-direction: row;
         border: none;
         gap: 20px;
+        font-size: 14px;
     }
 
 
@@ -360,7 +346,7 @@
 
     .header-img2{
         display: block;
-        width: 60px;
+        width: 40px;
         height: 30px;
         border: none;
     }
@@ -376,6 +362,7 @@
 .cards-container{
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap
 }
 
 .sec3-div-imgs{
