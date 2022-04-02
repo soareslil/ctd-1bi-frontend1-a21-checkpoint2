@@ -1,36 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" href="css/desktop2.css">
-    <title>LOGIN</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/desktop2.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>LOGIN</title>
 </head>
+
 <body>
-    
-    <div id="login-container">
-        <h1>Login</h1>
-        <form action="">
-            <label for="email">E-mail</label>
-            <input type="text" name="email" id="email" placeholder="Digite seu E-mail" autocomplete="off">
-            <label for="password">Senha</label>
-            <input type="password" name="password" id="password" placeholder="Digite sua senha">
-            <a href="#" id="forgot-pass">Esqueceu a senha?</a>
-            <input type="submit" value="Login">
-        </form>
-        <div id="social-container">
-            <p>Ou entre em suas rede sociais</p>
-            <lu>
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-linkedin"></i>
-            </lu>
-        </div>
-        <div id="register-container">
-            <p>Anda não tem uma conta?</p>
-            <a href="#">Registrar</a>
-        </div>
+
+  <header class="header">
+    <div class="header-div-img1-p">
+      <img class="header-img1" src="img/mcdonalds-logo.png" alt="logo-console" />
+      <p class="header-p">MC<span class="span-header">Donalds</span></p>
     </div>
-    </body>
+    <div class="header-div-ul-img">
+      <ul class="header-ul">
+        <li>Home</li>
+        <li>Cardápio</li>
+        <li>Promoções</li>
+        <li>Quem somos</li>
+      </ul>
+
+      <div class="div-hd-img2">
+        <img class="header-img2" src="img/carrinho-icon.png" alt="carrinho-icon" />
+      </div>
+    </div>
+
+    <img class="header-img3" src="img/hamburger-menu.png" alt="menu hamburger" />
+  </header>
+
+  <div id="login-container">
+    <h1>Login</h1>
+    <form action="">
+      <label for="email">E-mail</label>
+      <input type="text" name="email" id="email" placeholder="Digite seu E-mail" autocomplete="off">
+      <label for="password">Senha</label>
+      <input type="password" name="password" id="password" placeholder="Digite sua senha">
+      <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+      <input type="submit" value="Login">
+    </form>
+    <div id="social-container">
+      <p>Ou entre com suas rede sociais</p>
+      
+      <div class="acesso">
+        
+        <a
+          href="https://www.facebook.com">
+          <img src="./img/facebook-logo-3-1.png" alt="">
+        </a>
+      
+        <a
+          href="https://accounts.google.com/">
+          <img src="./img/Google__G__Logo.svg.png" alt="">
+        </a>
+      </div>
+    </div>
+</body>
+
 </html>
