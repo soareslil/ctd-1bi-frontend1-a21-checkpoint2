@@ -181,7 +181,7 @@
 .cardBotao{
     color: white;
     background-color: #ffbc0d;
-    width: 120px;
+    width: 90px;
     height: 44px;
     display: flex;
     align-items: center;
@@ -191,6 +191,12 @@
     font-size: 1rem;
     cursor:pointer;
     text-decoration: none; 
+}
+
+.cardBotao:hover{
+    color:red;
+    animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    width: 100px;
 }
 
 .sec3-h2{
@@ -322,6 +328,11 @@
         border: none;
         gap: 20px;
         font-size: 14px;
+    }
+
+    .header-ul a{
+        text-decoration: none;
+        color: white;
     }
 
 
