@@ -14,13 +14,27 @@ body{
     border: 1px solid #755B3E;
     display:flex;
     justify-content:space-around;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
 }
 
-.img-header{
-    /* border: 5px solid rgb(54, 35, 165); */
-    max-width: 100px;
+.nav-header{     
+    width: 60%;     
+    display: flex;     
+    flex-direction: row;     
+    justify-content: space-between;     
+    color: #755B3E; }  
+    
+.nav-header a
+{     
+    padding: 10px;     
+    display: flex;     
+    justify-content: center;     
+    align-self: center; 
 }
 
+<<<<<<< HEAD
 .nav-header{
     /* border: 5px solid rgb(35, 165, 115); */
     width: 60%;
@@ -42,16 +56,24 @@ align-self: center;
 .section-principal-img-pelo{
     /* border: 10px solid rgb(128, 0, 28); */
     /* background-image: url('../img/cheddar-duplo.png'); */
+=======
+.section-principal-img-lanche{
+>>>>>>> carlos
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    position: relative;
+    top: 80px;
 }
 
+<<<<<<< HEAD
 
 
 .h1-salvador{
@@ -67,83 +89,34 @@ align-self: center;
 }
 
 .h2-curiosidades{
+=======
+.descricao{
+>>>>>>> carlos
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    color: #755B3E;
 }
-.section-cards-curiosidades{
-    /* border: 10px solid rgb(222, 135, 196); */
+
+p{
+    padding: 5px;
+    text-align: center;
+}
+
+h3{
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    /* margin-bottom:10px; */
-}
-
-.cards{
-    border: 2px solid #755B3E;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-     margin:10px;
-     margin-bottom: 20px;
-    box-shadow: 0px 0px 11px 2px rgb(0 0 0 / 25%);
-    border-radius: 10px;
-    height: 575px;
-}
-
-.img-cards{
-    border: 1px solid white;
-    max-width: 100%;;
-    margin:5px;
-}
-
-.h3-titulos{
-    /* border: 10px solid khaki; */
-    padding: 10px;
-    color: #755B3E;
-}
-
-.description{
-    border: 1px solid #755B3E;
-    color:#755B3E;
-    height:  80%;
-    width: 100%;
-    padding: 15px;
-    /* margin:5px; */
-    height: 190px;
-}
-
-.button-cards{
-    margin-top: 15px;
-    height: 40px;
-    width: 100px;
-    color:#755B3E;
-    border: 1px solid #755B3E;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.button-cards:hover{
-   background-color:#755b3e3f;
 }
 
 .section-video{
-    /* border: 10px solid midnightblue; */
-    /* padding:5px; */
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     margin-top: 20px;
     
+=======
+    margin-top: 60px;
+>>>>>>> carlos
 }
 
 .h2-video{
-/* border: 10px solid red; */
 display: flex;
 justify-content: center;
 align-items: center;
@@ -155,20 +128,9 @@ color: #755B3E;
     /* border: 2px solid #755B3E;
     border-radius:10px; */
     max-width: 100%;
-    /* padding:5px; */
     box-shadow: 0px 0px 11px 2px rgb(0 0 0 / 25%);
     margin-bottom: 20px;
 }
-
-/* .footer{
-    border: 10px solid goldenrod;
-    display: flex;
-    justify-content:space-evenly;
-    align-items:center;
-    width: 100%;
-    height: 100px;
-    padding-left: 25px;
-} */
 
 footer{
     border: 1px solid #755B3E;
@@ -179,41 +141,29 @@ footer{
     display: flex;
     margin-right: auto;
     margin-left: auto;
-    /* border: 10px solid goldenrod; */
     justify-content:space-evenly;
     align-items:center;
-    /* width: 100%; */
     height: 100px;
-    /* padding-left: 25px; */
 }
 
 .p-footer{
-    /* border: 10px solid red;  */
     color: #755B3E;
 }
 
 .nav-footer{
-    /* border: 10px solid rgb(117, 78, 4); */
     width: 120px;
-    /* height: 100%; */
     display: flex;
     justify-content:space-between;
-    /* align-items:center; */
 }
 
 
 .img-footer{
-    /* border: 10px solid aquamarine; */
     width: 50px;
     display: flex;
     align-content: center;
     justify-content:center;
 
 }
-
-/* .img-footer:first-child{
-    margin-right: 30px;
-} */
 
 @media (min-width: 1280px){
 

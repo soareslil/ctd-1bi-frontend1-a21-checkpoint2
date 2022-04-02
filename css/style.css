@@ -340,7 +340,6 @@
     }
 
     .div-hd-img2{
-        /* border: 20px solid; */
         padding: 0px 5px 0px 20px;
     }
 
@@ -401,9 +400,3 @@ gap: 30px;
       transform: translateZ(-400px);
     }
   }
-  
-
-  /* css 
-cor amarela: #ffbc0d
-cor preta: #292929
-*/ 
