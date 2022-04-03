@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/desktop3.css">
-    <link rel="stylesheet" href="css/style.css">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/desktop3.css" />
     <title>MC/CHEDDAR</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <header class="header">
       <div class="header-div-img1-p">
         <img
@@ -19,14 +15,16 @@
           src="img/mcdonalds-logo.png"
           alt="logo-console"
         />
-        <p class="header-p">MC<span class="span-header">Donalds</span></p>
+        <p id="home" class="header-p">
+          MC<span class="span-header">Donalds</span>
+        </p>
       </div>
       <div class="header-div-ul-img">
         <ul class="header-ul">
-            <li><a href="#home">Home</a></li>
-            <li><a href="index.html">Cardápio</a></li>
-            <li><a href="/desktop2.html">Login</a></li>
-            <li><a href="#creators">Quem somos</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sec2-h2">Cardápio</a></li>
+          <li><a href="desktop2.html">Login</a></li>
+          <li><a href="#creators">Quem somos</a></li>
         </ul>
 
         <div class="div-hd-img2">
@@ -44,87 +42,122 @@
         alt="menu hamburger"
       />
     </header>
+    <section class="sec1-principal">
 
-    <section class="section-principal-img-lanche">
-        <img src="img/cheddar-duplo.png" alt="imagem do cheddar">
-
-        <h2 class="h2-curiosidades">Duplo cheddar McMelt</h2>
-
-            <div class="discricao">
-                <h3>786 kcal</h3>
-                <p>Duplamente delicioso. Dois hambúrgueres, delicioso molho sabor cheddar, cebola ao molho shoyu e para completar um pão escuro com gergelim.</p>
-            </div>
-
-        
-        <!--<h1 class="h1-salvador">Salvador</h1> -->
-        <!-- <img src="img/card1-pelourinho.jpg"/> -->
     </section>
 
-        <main class="main">
-            
-            <section class="section-video">
-                <div class="section-video-div">
-                <h2 class="h2-video">Vídeo</h2>
-                <iframe width="100%" height="200" src="https://www.youtube.com/embed/HReDVOeT5r0" 
-                title="YouTube video player" frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen></iframe>
-                </iframe>
-                </div>
-            </section>
-        </main>
+    <main class="main">
+      <section class="sec2-meio">
+        <!-- <h2 class="sec2-h2" id="sec2-h2">MC Lanches</h2> -->
+        <div class="cards-container">
+          <div class="cards">
+            <div class="div-imgs-card">
+              <img class="cards-img" src="img/mccheddar.jpg" alt="play1" />
+            </div>
 
-        <footer id="creators" class="footer">
-            <section class="footer-content">
-                <p class="p-footer">Liliane Soares</p>
-                <nav class="nav-footer">
-                    <a target="blank" href="https://www.linkedin.com/in/soareslil/">
-                        <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
-                    </a>
-                    <a target="blank" href="https://github.com/soareslil">
-                        <img class="img-footer"src="img/github-footer-removebg-preview.png" />
-                    </a>
-                </nav>
-            </section>
-    
-            <section class="footer-content">
-                <p class="p-footer">Carlos Santana</p>
-                <nav class="nav-footer">
-                    <a target="blank" href="https://www.linkedin.com/in/carlos-henrique-inovar/">
-                        <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
-                    </a>
-                    <a target="blank" href="https://github.com/CarlosSantana11">
-                        <img class="img-footer"src="img/github-footer-removebg-preview.png" />
-                    </a>
-                </nav>
-            </section>
-    
-            <section class="footer-content">
-                <p class="p-footer">Camila Monaco</p>
-                <nav class="nav-footer">
-                    <a target="blank" href="https://www.linkedin.com/in/camila-monaco/">
-                        <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
-                    </a>
-                    <a target="blank" href="https://github.com/MonacoCamila">
-                        <img class="img-footer"src="img/github-footer-removebg-preview.png" />
-                    </a>
-                </nav>
-            </section>
-    
-            <section class="footer-content">
-                <p class="p-footer">Paulo Matheus</p>
-                <nav class="nav-footer">
-                    <a target="blank" href="https://www.linkedin.com/in/paulo-matheus-79b547232/">
-                        <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
-                    </a>
-                    <a target="blank" href="https://github.com/PauloPk">
-                        <img class="img-footer"src="img/github-footer-removebg-preview.png" />
-                    </a>
-                </nav>
-            </section>
-    
-    
-        </footer>
-</body>
+            <div class="div-conteudo-card">
+              <h3 class="cards-h3">Duplo Cheddar McMelt</h3>
+              <h4 class="cards-h4">786 kcal</h4>
+              <!-- <h5 class="cards-h5">Envio grátis</h5> -->
+              <p class="card-p-dkt3">Duplamente delicioso. Dois hambúrgueres, 
+                  delicioso molho sabor cheddar, cebola ao molho 
+                  shoyu e para completar um pão escuro com gergelim.</p>
+            </div>
+          </div>
 
+        </div>
+      </section>
+
+      <!-- <section class="sec3-final">
+        <h2 class="sec3-h2">Méqui pra você</h2>
+
+        <div class="sec3-div-imgs">
+          <div class="img-bkg-1"></div>
+
+          <div class="img-bkg-2"></div>
+        </div>
+      </section> -->
+    </main>
+
+    <footer id="creators" class="footer">
+      <section class="footer-content">
+        <p class="p-footer">Liliane Soares</p>
+        <nav class="nav-footer">
+          <a target="blank" href="https://www.linkedin.com/in/soareslil/">
+            <img
+              target="blank"
+              class="img-footer"
+              src="img/linkedin-footer.png"
+            />
+          </a>
+          <a target="blank" href="https://github.com/soareslil">
+            <img
+              class="img-footer"
+              src="img/github-footer-removebg-preview.png"
+            />
+          </a>
+        </nav>
+      
+        <p class="p-footer">Carlos Santana</p>
+        <nav class="nav-footer">
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/carlos-henrique-inovar/"
+          >
+            <img
+              target="blank"
+              class="img-footer"
+              src="img/linkedin-footer.png"
+            />
+          </a>
+          <a target="blank" href="https://github.com/CarlosSantana11">
+            <img
+              class="img-footer"
+              src="img/github-footer-removebg-preview.png"
+            />
+          </a>
+        </nav>
+      </section>
+
+      <section class="footer-content">
+        <p class="p-footer">Camila Monaco</p>
+        <nav class="nav-footer">
+          <a target="blank" href="https://www.linkedin.com/in/camila-monaco/">
+            <img
+              target="blank"
+              class="img-footer"
+              src="img/linkedin-footer.png"
+            />
+          </a>
+          <a target="blank" href="https://github.com/MonacoCamila">
+            <img
+              class="img-footer"
+              src="img/github-footer-removebg-preview.png"
+            />
+          </a>
+        </nav>
+
+        <p class="p-footer">Paulo Matheus</p>
+        <nav class="nav-footer">
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/paulo-matheus-79b547232/"
+          >
+            <img
+              target="blank"
+              class="img-footer"
+              src="img/linkedin-footer.png"
+            />
+          </a>
+          <a target="blank" href="https://github.com/PauloPk">
+            <img
+              class="img-footer"
+              src="img/github-footer-removebg-preview.png"
+            />
+          </a>
+        </nav>
+      </section>
+      <p class="footer-final">Checkpoint 2 Front End 1 desenvolvido em 2022</p>
+    </footer>
+  </body>
 </html>
