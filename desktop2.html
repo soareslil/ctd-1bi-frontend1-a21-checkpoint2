@@ -7,8 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/desktop2.css">
-  <link rel="stylesheet" href="css/style.css">
-  <title>LOGIN</title>
+  <title>MC/LOGIN</title>
 </head>
 
 <body>
@@ -16,14 +15,14 @@
   <header class="header">
     <div class="header-div-img1-p">
       <img class="header-img1" src="img/mcdonalds-logo.png" alt="logo-console" />
-      <p class="header-p">MC<span class="span-header">Donalds</span></p>
+      <p id="home" class="header-p">MC<span class="span-header">Donalds</span></p>
     </div>
     <div class="header-div-ul-img">
       <ul class="header-ul">
-        <li>Home</li>
-        <li>Cardápio</li>
-        <li>Promoções</li>
-        <li>Quem somos</li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="index.html">Cardápio</a></li>
+        <li><a href="#loginscroll">Login</a></li>
+        <li><a href="#creators">Quem somos</a></li>
       </ul>
 
       <div class="div-hd-img2">
@@ -34,53 +33,75 @@
     <img class="header-img3" src="img/hamburger-menu.png" alt="menu hamburger" />
   </header>
 
-  <div id="login-container">
-    <h1>Login</h1>
-    <form action="">
-      <label for="email">E-mail</label>
-      <input type="text" name="email" id="email" placeholder="Digite seu E-mail" autocomplete="off">
-      <label for="password">Senha</label>
-      <input type="password" name="password" id="password" placeholder="Digite sua senha">
-      <a href="#" id="forgot-pass">Esqueceu a senha?</a>
-      <input type="submit" value="Login">
-    </form>
-    <div id="social-container">
-      <p>Ou entre com suas rede sociais</p>
+  <main>
 
-      <div class="acesso">
-
-        <a href="https://www.facebook.com">
-          <img src="./img/facebook-logo-3-1.png" alt="">
-        </a>
-
-        <a href="https://accounts.google.com/">
-          <img src="./img/Google__G__Logo.svg.png" alt="">
-        </a>
+    <div id="login-container">
+      <h1 id="loginscroll">Login</h1>
+      <form action="">
+        <label for="email">E-mail</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu E-mail" autocomplete="off">
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" placeholder="Digite sua senha">
+        <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+        <input type="submit" value="Login">
+      </form>
+      <div id="social-container">
+        <p>Ou entre com suas rede sociais</p>
+        
+        <div class="acesso">
+          
+          <a
+            href="https://www.facebook.com">
+            <img src="./img/facebook-logo-3-1.png" alt="">
+          </a>
+        
+          <a
+            href="https://accounts.google.com/">
+            <img src="./img/Google__G__Logo.svg.png" alt="">
+          </a>
+        </div>
       </div>
-    </div>
+  
 
-  </div>
-  <footer class="footer">
+  </main>
+
+  
+  <footer id="creators" class="footer">
     <section class="footer-content">
       <p class="p-footer">Liliane Soares</p>
       <nav class="nav-footer">
         <a target="blank" href="https://www.linkedin.com/in/soareslil/">
-          <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
+          <img
+            target="blank"
+            class="img-footer"
+            src="img/linkedin-footer.png"
+          />
         </a>
         <a target="blank" href="https://github.com/soareslil">
-          <img class="img-footer" src="img/github-footer-removebg-preview.png" />
+          <img
+            class="img-footer"
+            src="img/github-footer-removebg-preview.png"
+          />
         </a>
       </nav>
-    </section>
-
-    <section class="footer-content">
+    
       <p class="p-footer">Carlos Santana</p>
       <nav class="nav-footer">
-        <a target="blank" href="https://www.linkedin.com/in/carlos-henrique-inovar/">
-          <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
+        <a
+          target="blank"
+          href="https://www.linkedin.com/in/carlos-henrique-inovar/"
+        >
+          <img
+            target="blank"
+            class="img-footer"
+            src="img/linkedin-footer.png"
+          />
         </a>
         <a target="blank" href="https://github.com/CarlosSantana11">
-          <img class="img-footer" src="img/github-footer-removebg-preview.png" />
+          <img
+            class="img-footer"
+            src="img/github-footer-removebg-preview.png"
+          />
         </a>
       </nav>
     </section>
@@ -89,27 +110,41 @@
       <p class="p-footer">Camila Monaco</p>
       <nav class="nav-footer">
         <a target="blank" href="https://www.linkedin.com/in/camila-monaco/">
-          <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
+          <img
+            target="blank"
+            class="img-footer"
+            src="img/linkedin-footer.png"
+          />
         </a>
         <a target="blank" href="https://github.com/MonacoCamila">
-          <img class="img-footer" src="img/github-footer-removebg-preview.png" />
+          <img
+            class="img-footer"
+            src="img/github-footer-removebg-preview.png"
+          />
         </a>
       </nav>
-    </section>
 
-    <section class="footer-content">
       <p class="p-footer">Paulo Matheus</p>
       <nav class="nav-footer">
-        <a target="blank" href="https://www.linkedin.com/in/paulo-matheus-79b547232/">
-          <img target="blank" class="img-footer" src="img/linkedin-footer.png" />
+        <a
+          target="blank"
+          href="https://www.linkedin.com/in/paulo-matheus-79b547232/"
+        >
+          <img
+            target="blank"
+            class="img-footer"
+            src="img/linkedin-footer.png"
+          />
         </a>
         <a target="blank" href="https://github.com/PauloPk">
-          <img class="img-footer" src="img/github-footer-removebg-preview.png" />
+          <img
+            class="img-footer"
+            src="img/github-footer-removebg-preview.png"
+          />
         </a>
       </nav>
     </section>
-
-
+    <p class="footer-final">Checkpoint 2 Front End 1 desenvolvido em 2022</p>
   </footer>
 </body>
 
