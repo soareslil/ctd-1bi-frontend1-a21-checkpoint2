@@ -15,6 +15,9 @@
     align-items: center;
     background-color: #222222;
     height: 85px;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
 }
 
 .header-div-img1-p{
