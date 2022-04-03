@@ -69,7 +69,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 500px;
+    height: 100vh;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -264,7 +264,7 @@
 }
 
 .footer{
-    border: 1px solid #755B3E;
+    /* border: 1px solid #755B3E; */
     background-color: #ffbc0d;
 }
 
@@ -303,6 +303,12 @@
     align-content: center;
     justify-content:center;
 
+}
+
+.footer-final{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
 }
 
 @media (min-width: 1000px){

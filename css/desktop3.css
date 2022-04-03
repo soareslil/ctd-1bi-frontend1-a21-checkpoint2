@@ -322,6 +322,13 @@
     text-align: center;
 }
 
+.video-final{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 1000px){
 
     .header-div-img1-p{
