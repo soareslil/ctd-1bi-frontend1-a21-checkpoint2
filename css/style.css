@@ -110,8 +110,8 @@
 }
 
 .sec1-a:hover{
-    animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
-    width: 180px;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    /* width: 180px; */
     color: rgb(255, 196, 0);
 }
 .main{
@@ -198,8 +198,9 @@
 
 .cardBotao:hover{
     color:red;
-    animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    /* animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both; */
     width: 100px;
+    animation: rotate-center 0.6s ease-in-out both;
 }
 
 .sec3-h2{
@@ -353,7 +354,6 @@
     .header-ul li:hover{
     border: 1px solid white;
     border-radius: 3px;
-    animation: slide-bck-center 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
     width: 90px;
     text-align: center;
     align-self: center;
@@ -412,11 +412,21 @@ gap: 30px;
 
 }
 
-@keyframes slide-bck-center {
+@keyframes scale-up-center {
     0% {
-      transform: translateZ(0);
+      transform: scale(0.5);
     }
     100% {
-      transform: translateZ(-400px);
+      transform: scale(1);
+    }
+  }
+  
+
+  @keyframes rotate-center {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
     }
   }
