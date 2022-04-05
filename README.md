@@ -5,10 +5,10 @@
 <br>
 
 
-### REQUISITOS DO PROJETO DESENVOLVIDO: 📃💻
+### 📃💻 REQUISITOS DO PROJETO DESENVOLVIDO: 
 [Link do PDF de requisitos](https://github.com/soareslil/ctd-1bi-frontend1-a21-checkpoint2/blob/main/Checkpoint%2002.pdf)
 
-### RESULTADO DO MEU PROJETO:  ✔️
+### ✔️ RESULTADO DO MEU PROJETO:  
 [Link do projeto no ar](https://soareslil.github.io/ctd-1bi-frontend1-a21-checkpoint2/) 
 
 
