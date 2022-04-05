@@ -1,4 +1,4 @@
-## BEM VINDX AO MEU REPOSITÓRIO 👩‍💻👩‍💻✨
+## BEM VINDX AO NOSSO REPOSITÓRIO 👩‍💻👩‍💻✨
 
 ### __Aula 21 -  CHECKPOINT 2 - EM GRUPO__
 
