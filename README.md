@@ -1,6 +1,8 @@
-## BEM VINDX AO NOSSO REPOSITÓRIO 👩‍💻👩‍💻✨
+## BEM VINDX AO MEU REPOSITÓRIO 👩‍💻👩‍💻✨
 
-### __Aula 21 -  CHECKPOINT 2 - EM GRUPO__
+## 💻✨ CTD : Primeiro Bimestre 
+## 📃✨ Disciplina: Front End 1  
+## 👩‍💻💻 __Aula 21 -  CHECKPOINT 2 - EM GRUPO__
 
 <br>
 
